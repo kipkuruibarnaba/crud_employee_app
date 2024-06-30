@@ -9,11 +9,22 @@ import { AppRoutingModule } from './app-routing.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { NgbModule,NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
+import { EmployeeComponent } from './employee/employee.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatIconModule} from '@angular/material/icon';
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatListModule} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
+    EmployeeComponent,
   ],
   imports: [
     BrowserModule,
@@ -22,7 +33,16 @@ import { NgbModule,NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
     MatToolbarModule,
     MatGridListModule,
     NgbModule,
-    NgbAccordionModule
+    NgbAccordionModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+    MatSelectModule,
+    MatRadioModule,
+    MatCheckboxModule,
+    MatListModule,
+    MatButtonModule,
+    FormsModule
 
   ],
   providers: [],
